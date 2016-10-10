@@ -1,0 +1,5 @@
+﻿AppName = DuoSwitch
+Connections = text(filename="$logfile$", reconnect="true")
+DefaultLevel = Verbose
+Enabled = True
+Level = Verbose
