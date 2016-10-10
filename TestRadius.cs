@@ -40,7 +40,7 @@ namespace TestRadius
         private int rStatus = -2;
         public void GetStatus(string RadiusServer = "", int port = 1812, string SharedSecret = "",string UserName = "", string Password = "")
         {
-            SiAuto.Main.LogVerbose("Getting Radius Status for Server {0} on port {1}");
+            SiAuto.Main.LogVerbose("Getting Radius Status for Server {0} on port {1}", RadiusServer, port);
             if (RadiusServer == "")
             {
                 RadiusServer = RS;
