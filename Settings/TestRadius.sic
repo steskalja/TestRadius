@@ -1,4 +1,4 @@
-﻿AppName = DuoSwitch
+﻿AppName = TestRadius
 Connections = text(filename="$logfile$", reconnect="true")
 DefaultLevel = Verbose
 Enabled = True
