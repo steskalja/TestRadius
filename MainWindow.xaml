@@ -16,7 +16,7 @@
         <Label x:Name="lbPW" Content="Password" HorizontalAlignment="Left" Margin="150,72,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.335,-0.021" Width="111" IsEnabled="False"/>
         <PasswordBox x:Name="tbPW" HorizontalAlignment="Left" Margin="150,103,0,0" VerticalAlignment="Top" Width="120" ToolTip="The password for the User"/>
         <Label x:Name="lbPrt" Content="Port" HorizontalAlignment="Left" Margin="21,133,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.335,-0.021" Width="111" IsEnabled="False"/>
-        <TextBox x:Name="tbPrt" HorizontalAlignment="Left" Height="23" Margin="21,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" ToolTip="The port on the radius server to connect to"/>
+        <TextBox x:Name="tbPrt" HorizontalAlignment="Left" Height="23" Margin="21,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" PreviewTextInput="NumberValidationTextBox" ToolTip="The port on the radius server to connect to: Default 1812" Text="1812"/>
         <Label x:Name="lbResults" Content="Results" HorizontalAlignment="Left" Margin="21,184,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.335,-0.021" Width="111" IsEnabled="False"/>
         <TextBox x:Name="tbResults" HorizontalAlignment="Left" Margin="21,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="249" Height="93" IsReadOnly="True"/>
         <Button x:Name="btnTest" Content="Test" Margin="21,313,201,0" VerticalAlignment="Top" Click="btnTest_Click"/>
